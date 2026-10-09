@@ -1,0 +1,35 @@
+name: PR Verification & Archify Checks
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'college-webapp/**'
+
+jobs:
+  verify:
+    name: Build, Lint & Architecture Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: college-webapp/package.json
+
+      - name: Install Dependencies
+        working-directory: college-webapp
+        run: npm ci || npm install
+
+      - name: Lint & Typecheck
+        working-directory: college-webapp
+        run: npm run lint
+
+      - name: Build Web Application
+        working-directory: college-webapp
+        run: npm run build

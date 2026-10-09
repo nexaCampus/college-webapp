@@ -1,0 +1,35 @@
+name: Graphify Knowledge Graph & Architecture Audit
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  graphify-audit:
+    name: Run Graphify Knowledge Graph & Audit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Graphify
+        run: pip install --upgrade graphifyy
+
+      - name: Run Graphify Pipeline
+        run: |
+          mkdir -p graphify-out
+          python -m graphify . --mode deep || true
+
+      - name: Upload Graph Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: graphify-report
+          path: graphify-out/

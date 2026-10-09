@@ -1,0 +1,435 @@
+{
+  "communities": {
+    "0": [
+      "clsx",
+      "firebase",
+      "flowbite",
+      "lucide_react",
+      "package_dependencies",
+      "package_dependencies_clsx",
+      "package_dependencies_firebase",
+      "package_dependencies_flowbite",
+      "package_dependencies_lucide_react",
+      "package_dependencies_next",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_tailwind_merge",
+      "package_dependencies_tanstack_react_query",
+      "package_json_next",
+      "react",
+      "react_dom",
+      "tailwind_merge",
+      "tanstack_react_query"
+    ],
+    "1": [
+      "ref_dom",
+      "ref_dom_iterable",
+      "ref_esnext",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_allowjs",
+      "tsconfig_compileroptions_esmoduleinterop",
+      "tsconfig_compileroptions_incremental",
+      "tsconfig_compileroptions_isolatedmodules",
+      "tsconfig_compileroptions_jsx",
+      "tsconfig_compileroptions_lib",
+      "tsconfig_compileroptions_module",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_noemit",
+      "tsconfig_compileroptions_paths",
+      "tsconfig_compileroptions_plugins",
+      "tsconfig_compileroptions_resolvejsonmodule",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_target"
+    ],
+    "2": [
+      "app_dashboard_results_page",
+      "app_dashboard_results_page_resultspage",
+      "app_page",
+      "app_page_homepage",
+      "components_charts_areachart",
+      "components_charts_areachart_areachart",
+      "components_charts_areachart_areachartprops",
+      "components_charts_areachart_datapoint",
+      "components_features_mindmapvisualizer",
+      "components_features_mindmapvisualizer_mindmapnode",
+      "components_features_mindmapvisualizer_mindmapvisualizer",
+      "components_features_mindmapvisualizer_nodes",
+      "components_features_studenttodolist",
+      "components_features_studenttodolist_initial_tasks",
+      "components_features_studenttodolist_studenttodolist",
+      "components_features_studenttodolist_taskitem"
+    ],
+    "3": [
+      "app_exams_id_page",
+      "app_exams_id_page_activeexampage",
+      "app_exams_id_page_question",
+      "app_exams_id_page_sample_questions",
+      "app_exams_terminated_page",
+      "app_exams_terminated_page_examterminatedpage",
+      "components_features_watermarkoverlay",
+      "components_features_watermarkoverlay_watermarkoverlay",
+      "components_features_watermarkoverlay_watermarkoverlayprops",
+      "hooks_useexamproctor",
+      "hooks_useexamproctor_useexamproctor",
+      "hooks_useexamproctor_useexamproctoroptions",
+      "lib_api",
+      "lib_api_examviolationpayload",
+      "lib_api_reportexamviolation",
+      "lib_api_submitexamanswers"
+    ],
+    "4": [
+      "autoprefixer",
+      "package_devdependencies",
+      "package_devdependencies_autoprefixer",
+      "package_devdependencies_postcss",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_types_node",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript",
+      "package_json_tailwindcss",
+      "postcss",
+      "types_node",
+      "types_react",
+      "types_react_dom",
+      "typescript"
+    ],
+    "5": [
+      "package",
+      "package_description",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_lint",
+      "package_scripts_start",
+      "package_version"
+    ],
+    "6": [
+      "app_layout",
+      "app_layout_metadata",
+      "app_layout_poppins",
+      "app_layout_rootlayout",
+      "app_layout_viewport",
+      "components_layout_crispnavbar",
+      "components_layout_crispnavbar_crispnavbar",
+      "components_layout_institutionalfooter",
+      "components_layout_institutionalfooter_institutionalfooter"
+    ],
+    "7": [
+      "app_auth_login_page",
+      "app_auth_login_page_loginpage",
+      "lib_firebase",
+      "lib_firebase_app",
+      "lib_firebase_auth",
+      "lib_firebase_firebaseconfig",
+      "lib_firebase_googleprovider",
+      "lib_firebase_setuprecaptcha"
+    ],
+    "8": [
+      "ref_next_env_d_ts",
+      "ref_next_types_ts",
+      "ref_node_modules",
+      "ref_ts",
+      "ref_tsx",
+      "tsconfig",
+      "tsconfig_exclude",
+      "tsconfig_include"
+    ],
+    "9": [
+      "scripts_archify",
+      "scripts_archify_generate_arch_map",
+      "scripts_archify_main",
+      "scripts_archify_scan_components",
+      "scripts_archify_scan_hooks",
+      "scripts_archify_scan_routes",
+      "scripts_archify_validate_proctor_security"
+    ],
+    "10": [
+      "components_features_examproctorhud",
+      "components_features_examproctorhud_examproctorhud",
+      "components_features_examproctorhud_examproctorhudprops",
+      "lib_utils",
+      "lib_utils_cn",
+      "lib_utils_formattimeremaining"
+    ],
+    "11": [
+      "postcss_config",
+      "postcss_config_config",
+      "postcss_load_config"
+    ],
+    "12": [
+      "app_dashboard_academics_page",
+      "app_dashboard_academics_page_academicspage"
+    ],
+    "13": [
+      "app_dashboard_attendance_page",
+      "app_dashboard_attendance_page_attendancepage"
+    ],
+    "14": [
+      "app_dashboard_bus_page",
+      "app_dashboard_bus_page_bustransitpage"
+    ],
+    "15": [
+      "app_dashboard_canteen_page",
+      "app_dashboard_canteen_page_canteenpage"
+    ],
+    "16": [
+      "app_dashboard_clubs_page",
+      "app_dashboard_clubs_page_clubspage"
+    ],
+    "17": [
+      "app_dashboard_diary_page",
+      "app_dashboard_diary_page_studentdiarypage"
+    ],
+    "18": [
+      "app_dashboard_faculty_page",
+      "app_dashboard_faculty_page_facultypage"
+    ],
+    "19": [
+      "app_dashboard_fees_page",
+      "app_dashboard_fees_page_feespage"
+    ],
+    "20": [
+      "app_dashboard_hallpass_page",
+      "app_dashboard_hallpass_page_hallpasspage"
+    ],
+    "21": [
+      "app_dashboard_health_page",
+      "app_dashboard_health_page_healthpage"
+    ],
+    "22": [
+      "app_dashboard_helpdesk_page",
+      "app_dashboard_helpdesk_page_helpdeskpage"
+    ],
+    "23": [
+      "app_dashboard_labs_page",
+      "app_dashboard_labs_page_labspage"
+    ],
+    "24": [
+      "app_dashboard_library_page",
+      "app_dashboard_library_page_librarypage"
+    ],
+    "25": [
+      "app_dashboard_lostfound_page",
+      "app_dashboard_lostfound_page_lostfoundpage"
+    ],
+    "26": [
+      "app_dashboard_merits_page",
+      "app_dashboard_merits_page_meritspage"
+    ],
+    "27": [
+      "app_dashboard_notices_page",
+      "app_dashboard_notices_page_noticespage"
+    ],
+    "28": [
+      "app_dashboard_placements_page",
+      "app_dashboard_placements_page_placementspage"
+    ],
+    "29": [
+      "app_dashboard_timetable_page",
+      "app_dashboard_timetable_page_timetablepage"
+    ],
+    "30": [
+      "app_exams_page",
+      "app_exams_page_examsoverviewpage"
+    ],
+    "31": [
+      "next_config",
+      "next_config_nextconfig"
+    ],
+    "32": [
+      "next_env_d",
+      "next_env_d_rationale_5"
+    ],
+    "33": [
+      "scripts_run_graphify",
+      "scripts_run_graphify_main"
+    ],
+    "34": [
+      "next_next"
+    ],
+    "35": [
+      "tailwind_config"
+    ],
+    "36": [
+      "tailwindcss_tailwindcss"
+    ]
+  },
+  "cohesion": {
+    "0": 0.10526315789473684,
+    "1": 0.10526315789473684,
+    "2": 0.15833333333333333,
+    "3": 0.18333333333333332,
+    "4": 0.13333333333333333,
+    "5": 0.2,
+    "6": 0.2777777777777778,
+    "7": 0.39285714285714285,
+    "8": 0.25,
+    "9": 0.5238095238095238,
+    "10": 0.4666666666666667,
+    "11": 0.6666666666666666,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0
+  },
+  "gods": [
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 16
+    },
+    {
+      "id": "scripts_archify_main",
+      "label": "main()",
+      "degree": 6
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 5
+    },
+    {
+      "id": "tsconfig_include",
+      "label": "include",
+      "degree": 5
+    },
+    {
+      "id": "hooks_useexamproctor_useexamproctor",
+      "label": "useExamProctor()",
+      "degree": 4
+    },
+    {
+      "id": "tsconfig_compileroptions_lib",
+      "label": "lib",
+      "degree": 4
+    },
+    {
+      "id": "components_charts_areachart_areachart",
+      "label": "AreaChart()",
+      "degree": 3
+    },
+    {
+      "id": "components_features_examproctorhud_examproctorhud",
+      "label": "ExamProctorHUD()",
+      "degree": 3
+    },
+    {
+      "id": "lib_api_examviolationpayload",
+      "label": "ExamViolationPayload",
+      "degree": 3
+    },
+    {
+      "id": "lib_api_reportexamviolation",
+      "label": "reportExamViolation()",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "LoginPage()",
+      "target": "setupRecaptcha()",
+      "source_files": [
+        "app/(auth)/login/page.tsx",
+        "lib/firebase.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "ActiveExamPage()",
+      "target": "useExamProctor()",
+      "source_files": [
+        "app/exams/[id]/page.tsx",
+        "hooks/useExamProctor.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "ExamProctorHUD()",
+      "target": "formatTimeRemaining()",
+      "source_files": [
+        "components/features/ExamProctorHUD.tsx",
+        "lib/utils.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "useExamProctor()",
+      "target": "reportExamViolation()",
+      "source_files": [
+        "hooks/useExamProctor.ts",
+        "lib/api.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `dependencies` connect `Academic Domain 0` to `Academic Domain 5`?",
+      "why": "High betweenness centrality (0.036) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `devDependencies` connect `Academic Domain 4` to `Academic Domain 5`?",
+      "why": "High betweenness centrality (0.030) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `compilerOptions` connect `Academic Domain 1` to `Academic Domain 8`?",
+      "why": "High betweenness centrality (0.018) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Question`, `SAMPLE_QUESTIONS`, `poppins` to the rest of the system?",
+      "why": "64 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Academic Domain 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Academic Domain 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Academic Domain 4` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

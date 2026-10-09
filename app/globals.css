@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Virgil';
+  src: url('/fonts/Virgil.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-surface: #f9f9ff;
+  --color-surface-bright: #ffffff;
+  --color-surface-dim: #cfdaf2;
+  --color-surface-container: #e7eeff;
+  --color-surface-container-low: #f0f3ff;
+  --color-surface-container-high: #dee8ff;
+  --color-surface-container-highest: #d8e3fb;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-surface: #111c2d;
+  --color-on-surface-variant: #44474d;
+  --color-outline: #75777e;
+  --color-outline-variant: #c5c6cd;
+  --color-primary: #0c1a30;
+  --color-primary-container: #1e3a8a;
+  --color-secondary: #4059aa;
+  --color-tertiary: #d97706;
+}
+
+.dark {
+  --color-surface: #121620;
+  --color-surface-bright: #1b2030;
+  --color-surface-dim: #0b0e14;
+  --color-surface-container: #1f2538;
+  --color-surface-container-low: #171c2a;
+  --color-surface-container-high: #272f46;
+  --color-surface-container-highest: #303a56;
+  --color-surface-container-lowest: #0e111a;
+  --color-on-surface: #e2e8f0;
+  --color-on-surface-variant: #94a3b8;
+  --color-outline: #64748b;
+  --color-outline-variant: #334155;
+  --color-primary: #3b82f6;
+  --color-primary-container: #1d4ed8;
+  --color-secondary: #60a5fa;
+  --color-tertiary: #f59e0b;
+}
+
+/* Tactile Human Interactions — Divs react to touches & pointer */
+.touch-reactive {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+}
+
+.touch-reactive:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px -4px rgba(12, 26, 48, 0.08), 0 3px 6px -2px rgba(12, 26, 48, 0.04);
+}
+
+.touch-reactive:active {
+  transform: translateY(0px) scale(0.995);
+}
+
+/* Exam Mode Security Invariants */
+.exam-lockdown {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.exam-watermark {
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Handwritten Virgil & Sketched accents */
+.font-virgil {
+  font-family: 'Virgil', 'Caveat', 'Architects Daughter', cursive;
+}
